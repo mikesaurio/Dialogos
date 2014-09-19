@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/dialogos_btn_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialogo simple" />
+
+    <Button
+        android:id="@+id/dialogos_btn_sino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialogo sino" />
+
+    <Button
+        android:id="@+id/dialogos_btn_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialogo lista" />
+
+    <Button
+        android:id="@+id/dialogos_btn_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialogo radio" />
+
+    <Button
+        android:id="@+id/dialogos_btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialogo check" />
+
+    <Button
+        android:id="@+id/dialogos_btn_custome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialogo custome" />
+
+</LinearLayout>
